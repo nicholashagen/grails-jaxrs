@@ -19,6 +19,7 @@ grails.project.dependency.resolution = {
     log "warn"
     repositories {
         grailsHome()
+        mavenLocal()
         mavenCentral()
         mavenRepo "http://download.java.net/maven/2"
         mavenRepo "http://download.java.net/maven/1"
