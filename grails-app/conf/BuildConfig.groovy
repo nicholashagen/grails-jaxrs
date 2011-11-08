@@ -19,6 +19,7 @@ grails.project.dependency.resolution = {
     log "warn"
     repositories {
         grailsHome()
+        grailsCentral()
         mavenLocal()
         mavenCentral()
         mavenRepo "http://download.java.net/maven/2"
@@ -43,6 +44,10 @@ grails.project.dependency.resolution = {
         ){
            transitive = false
         }
+    }
+
+    plugins {
+        compile ':release:latest.release'
     }
 
 }
