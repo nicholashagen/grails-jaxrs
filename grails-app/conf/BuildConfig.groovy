@@ -14,16 +14,6 @@
  * limitations under the License.
  */
 
-// grails.project.repos.default = "espn-snapshots"
-
-grails.project.repos.'espn-releases'.url = "http://maven2.corp.espn3.com/content/repositories/releases/"
-grails.project.repos.'espn-releases'.username = "deployment"
-grails.project.repos.'espn-releases'.password = "deployment123"
-
-grails.project.repos.'espn-snapshots'.url = "http://maven2.corp.espn3.com/content/repositories/snapshots"
-grails.project.repos.'espn-snapshots'.username = "deployment"
-grails.project.repos.'espn-snapshots'.password = "deployment123"
-
 grails.project.dependency.resolution = {
     inherits "global"
     log "warn"
